@@ -1,0 +1,427 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    font-family: "微软雅黑";
+}
+
+#wrap {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.top {
+    height: 50px;
+    width: 1238px;
+    padding: 0 20px;
+}
+
+#logo {
+    width: 120px;
+    height: 50px;
+    float: left;
+    margin-left: 45px;
+    text-align: center;
+
+}
+
+#logoPic {
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+    float: left;
+}
+
+#logo span {
+    display: inline-block;
+    height: 30px;
+    float: left;
+    font-size: 23px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.nav li {
+    list-style: none;
+    float: right;
+    width: 90px;
+    height: 50px;
+    line-height: 50px;
+
+    text-align: center;
+}
+
+.nav li a:link, .nav li a:visited {
+    text-decoration: none;
+    color: rgb(166, 167, 169);
+    font-weight: bolder;
+}
+
+.nav li a {
+    display: block;
+    width: 90px;
+    height: 47px;
+    font-weight: bolder;
+}
+
+.nav li a:hover, .nav li a:active {
+    text-decoration: none;
+    color: rgb(239, 133, 136);
+    border-bottom: 3px solid rgb(239, 133, 136);
+}
+
+#icon {
+    background: url("images/header_2.jpg") 15px 0 no-repeat;
+}
+
+.mainbody {
+    width: 100%;
+}
+
+#words {
+    padding-left: 110px;
+    padding-top: 230px;
+    height: 454px;
+    background: url("images/pic01.jpg") no-repeat;
+}
+
+#words h1 {
+    font-size: 60px;
+    color: white;
+    font-family: Arial;
+}
+
+#words p {
+    color: rgb(237, 233, 236);
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#words a {
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 60px;
+    display: block;
+    width: 326px;
+    height: 63px;
+    line-height: 63px;
+    background-color: rgb(232, 81, 79);
+    color: rgb(237, 233, 236);
+    text-align: center;
+    font-size: 33px;
+}
+
+#centerwords span {
+    height: 130px;
+    width: 25%;
+    float: left;
+}
+
+#centerwords span:nth-of-type(1) {
+    background-image: url(images/circle.png);
+    background-repeat: no-repeat;
+    background-position: center 43px;
+}
+
+#centerwords span:nth-of-type(2) {
+    background-image: url(images/flag.png);
+    background-repeat: no-repeat;
+    background-position: center 43px;
+}
+
+#centerwords span:nth-of-type(3) {
+    background-image: url(images/flower.png);
+    background-repeat: no-repeat;
+    background-position: center 43px;
+}
+
+#centerwords span:nth-of-type(4) {
+    background-image: url(images/square.png);
+    background-repeat: no-repeat;
+    background-position: center 43px;
+}
+
+#centerwords p {
+    color: rgb(128, 128, 128);
+    float: left;
+    width: 160px;
+    height: 40px;
+    padding: 8px 78px;
+    text-align: center;
+}
+
+#centerwords p:nth-of-type(1) {
+    border-right: 2px solid rgb(166, 167, 169);
+}
+
+#centerwords p:nth-of-type(2) {
+    border-right: 2px solid rgb(166, 167, 169);
+}
+
+#centerwords p:nth-of-type(3) {
+    border-right: 2px solid rgb(166, 167, 169);
+}
+
+#centerwords {
+    overflow: hidden;
+}
+
+#future {
+    margin-top: 60px;
+    height: 360px;
+    width: 100%;
+    background: rgb(237, 237, 238) url("images/new.png") 50% 30% no-repeat;
+    border: 1px solid rgb(237, 237, 238);
+}
+
+#future p {
+    text-align: center;
+    margin-top: 220px;
+    font-size: 53px;
+    color: rgb(162, 162, 162);
+    font-family: Arial;
+}
+
+.select {
+    height: 340px;
+    width: 100%;
+    background: url("images/map.jpg") no-repeat;
+    overflow: hidden;
+}
+
+.select p {
+    text-align: center;
+    color: white;
+}
+
+.select p:nth-of-type(1) {
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.select p:nth-of-type(2) {
+    line-height: 80px;
+    font-size: 12px;
+}
+
+#selects {
+    margin-left: 120px;
+    margin-top: 15px;
+}
+
+.sel {
+    width: 220px;
+    height: 33px;
+    padding-left: 10px;
+    margin-right: 30px;
+    background: white url("images/red-arrow.png") no-repeat 98%;
+    border: 1px solid white;
+}
+
+#selects a {
+    display: inline-block;
+    width: 220px;
+    height: 33px;
+    background: rgb(192, 78, 72);
+    text-align: center;
+    line-height: 33px;
+}
+
+#selects a:link, #selects a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#selects a:hover, #selects a:active {
+    color: white;
+    text-decoration: none;
+}
+
+#activity {
+    padding-top: 100px;
+    background: rgb(249, 249, 249);
+    height: 504px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#activity > div {
+    display: inline-block;
+    width: 217px;
+    height: 391px;
+    margin-right: 35px;
+
+}
+
+#activity > div:nth-of-type(4) {
+    margin-right: 0;
+}
+
+#activity > div div {
+    background: rgb(249, 249, 249);
+    padding: 14px 8px;
+    border: 1px solid #e1dedc;
+    margin-bottom: 12px;
+    height: 309px;
+    float: left;
+}
+
+#activity > div h4 {
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: #524c4a;
+    float: left;
+    width: 217px;
+}
+
+#activity > div p {
+    font-size: 12px;
+    color: #7f7773;
+    float: left;
+    width: 217px;
+}
+
+#activity > div:nth-of-type(2) h4 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    letter-spacing: 23px;
+}
+
+#activity > div:nth-of-type(2) p {
+    margin-bottom: 7px;
+
+}
+
+#midleft {
+    width: 850px;
+    height: 440px;
+    background: red url("images/middle-left.jpg") no-repeat;
+    float: left;
+    text-align: center;
+    padding-top: 120px;
+    color: white;
+    font-family: Arial;
+}
+
+#midleft h2 {
+    font-size: 49px;
+}
+
+#midleft h1 {
+    font-size: 157px;
+}
+
+#midleft p {
+    font-size: 21px;
+    line-height: 40px;
+}
+
+#midright {
+    width: 430px;
+    height: 240px;
+    float: right;
+    background: url("images/point.png") no-repeat center 80%;
+    text-align: center;
+    padding: 160px 0;
+}
+
+#midright h3, span {
+    font-size: 21px;
+}
+
+#midright span {
+    color: rgb(239, 133, 136);
+
+}
+#midright p{
+    margin:20px 70px 40px;
+    line-height: 25px;
+    color:rgb(200,200,200)
+}
+#midright a{
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin: 0 38%;
+    line-height: 30px;
+    border:1px solid rgb(239, 133, 136) ;
+    color: rgb(239, 133, 136);
+    text-align: center;
+    text-decoration: none;
+}
+
+.middle{overflow: hidden}
+.bottom{
+    width:100%;
+    height: 520px;
+    text-align: center;
+    overflow: hidden;
+}
+.bottom #bleft{
+    float: left;
+    background: rgb(232, 81, 79);
+    width:33.33%;
+    height: 360px;
+    padding:160px 0 0 0;
+}
+.bottom #bleft p{
+    font-size: 20px;
+    color: white;
+}
+.bottom #bleft a{
+    font-size: 20px;
+    color: white;
+}
+.bottom #bleft a{
+    display: block;
+    width: 166px;
+    height: 40px;
+    margin: 40px 30% 0;
+    line-height: 40px;
+    border:1px solid white ;
+
+    text-align: center;
+    text-decoration: none;
+}
+.bottom #bmid{
+    width:33.1%;
+    height:360px;
+    float: left;
+    padding:160px 0 0 0;
+}
+.bottom #bmid p{
+    font-size: 20px;
+    color: black;
+}
+.bottom #bmid a{
+    color: rgb(232, 81, 79);
+    border: 1px solid rgb(232, 81, 79);
+    display: block;
+    font-size: 20px;
+    width: 166px;
+    height: 40px;
+    margin: 40px 30% 0;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+.bottom #bright{
+    width:33.57%;
+    height:520px;
+    float: left;
+    background: url("images/train.png") no-repeat;
+
+
+}
+.vol{
+    width: 425px;
+    height:80px;
+    padding:110px 425px 85px;
+    text-align: center;
+}
+.vol h3{font-size: 20px;}
+.vol p{
+    margin-top: 20px;
+    color: rgb(167,167,167);
+}
