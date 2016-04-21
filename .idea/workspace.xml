@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec5b9cb0-79c6-494a-982f-b6e4105ef618" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task7.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task7.css" afterPath="$PROJECT_DIR$/task7.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task7.html" afterPath="$PROJECT_DIR$/task7.html" />
     </list>
     <ignored path="task7.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +29,18 @@
       <file leaf-file-name="task7.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task7.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.64285713">
+              <caret line="121" column="55" selection-start-line="121" selection-start-column="55" selection-end-line="121" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task7.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task7.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-18.125">
+              <caret line="468" column="28" selection-start-line="468" selection-start-column="28" selection-end-line="468" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -50,6 +59,14 @@
     </option>
     <option name="externalProjectsViewState">
       <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/task7.css" />
+        <option value="$PROJECT_DIR$/task7.html" />
+      </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
@@ -115,6 +132,7 @@
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/task7-gh-pages" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -211,12 +229,12 @@
       <created>1461169565538</created>
       <option name="number" value="Default" />
       <updated>1461169565538</updated>
-      <workItem from="1461169567398" duration="13000" />
+      <workItem from="1461169567398" duration="3108000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13000" />
+    <option name="totallyTimeSpent" value="3108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="800" extended-state="6" />
@@ -254,10 +272,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/task7.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.125">
+          <caret line="468" column="28" selection-start-line="468" selection-start-column="28" selection-end-line="468" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/task7.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.64285713">
+          <caret line="121" column="55" selection-start-line="121" selection-start-column="55" selection-end-line="121" selection-end-column="55" />
           <folding />
         </state>
       </provider>

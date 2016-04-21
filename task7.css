@@ -334,67 +334,79 @@
     color: rgb(239, 133, 136);
 
 }
-#midright p{
-    margin:20px 70px 40px;
+
+#midright p {
+    margin: 20px 70px 40px;
     line-height: 25px;
-    color:rgb(200,200,200)
+    color: rgb(200, 200, 200)
 }
-#midright a{
+
+#midright a {
     display: block;
     width: 100px;
     height: 30px;
     margin: 0 38%;
     line-height: 30px;
-    border:1px solid rgb(239, 133, 136) ;
+    border: 1px solid rgb(239, 133, 136);
     color: rgb(239, 133, 136);
     text-align: center;
     text-decoration: none;
 }
 
-.middle{overflow: hidden}
-.bottom{
-    width:100%;
+.middle {
+    overflow: hidden
+}
+
+.bottom {
+    width: 100%;
     height: 520px;
     text-align: center;
     overflow: hidden;
 }
-.bottom #bleft{
+
+.bottom #bleft {
     float: left;
     background: rgb(232, 81, 79);
-    width:33.33%;
+    width: 33.33%;
     height: 360px;
-    padding:160px 0 0 0;
+    padding: 160px 0 0 0;
 }
-.bottom #bleft p{
+
+.bottom #bleft p {
     font-size: 20px;
     color: white;
 }
-.bottom #bleft a{
+
+.bottom #bleft a {
     font-size: 20px;
     color: white;
 }
-.bottom #bleft a{
+
+.bottom #bleft a {
     display: block;
     width: 166px;
     height: 40px;
     margin: 40px 30% 0;
     line-height: 40px;
-    border:1px solid white ;
+    border: 1px solid white;
 
     text-align: center;
     text-decoration: none;
 }
-.bottom #bmid{
-    width:33.1%;
-    height:360px;
+
+.bottom #bmid {
+    width: 33.1%;
+    height: 360px;
     float: left;
-    padding:160px 0 0 0;
+    padding: 160px 0 0 0;
 }
-.bottom #bmid p{
+
+.bottom #bmid p {
     font-size: 20px;
     color: black;
 }
-.bottom #bmid a{
+
+.bottom #bmid a {
     color: rgb(232, 81, 79);
     border: 1px solid rgb(232, 81, 79);
     display: block;
@@ -406,22 +418,59 @@
     text-align: center;
     text-decoration: none;
 }
-.bottom #bright{
-    width:33.57%;
-    height:520px;
+
+.bottom #bright {
+    width: 33.57%;
+    height: 520px;
     float: left;
     background: url("images/train.png") no-repeat;
 
-
 }
-.vol{
+
+.vol {
     width: 425px;
-    height:80px;
-    padding:110px 425px 85px;
+    height: 80px;
+    padding: 110px 425px 85px;
     text-align: center;
 }
-.vol h3{font-size: 20px;}
-.vol p{
+
+.vol h3 {
+    font-size: 20px;
+}
+
+.vol p {
     margin-top: 20px;
-    color: rgb(167,167,167);
+    color: rgb(167, 167, 167);
+}
+.join{
+    width: 1050px;
+    height:300px;
+    padding: 0px 115px 150px;
+    //background: blue;
+}
+.joinleft{
+    width: 300px;
+
+}
+.joinleft h5{
+    height:40px;
+    color: rgb(111,109,110);
+    padding-top: 25px;
+}
+.joinleft h5:nth-of-type(1){
+    padding-top: 0;
+}
+.joinleft span{
+   font-size: 11px;
+    text-align: right;
+    border:1px solid red;
+    display: inline-block;
+    width: 300px;
+    color: rgb(181,181,181);
+    background: url("images/arrow.png") no-repeat 90%;
+}
+.joinleft p{
+    color: rgb(181,181,181);
+    font-size: 11px;
+
 }
