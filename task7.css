@@ -443,14 +443,13 @@
     color: rgb(167, 167, 167);
 }
 .join{
-    width: 1050px;
+    width: 1055px;
     height:300px;
     padding: 0px 115px 150px;
-    //background: blue;
 }
 .joinleft{
     width: 300px;
-
+    float: left;
 }
 .joinleft h5{
     height:40px;
@@ -463,7 +462,6 @@
 .joinleft span{
    font-size: 11px;
     text-align: right;
-    border:1px solid red;
     display: inline-block;
     width: 300px;
     color: rgb(181,181,181);
@@ -473,4 +471,41 @@
     color: rgb(181,181,181);
     font-size: 11px;
 
+}
+.form{
+    float: left;
+    width:750px;
+    text-align: right;
+}
+.form input{
+    width:283px;
+    height: 35px;
+    background: rgb(238,238,238);
+    border:1px solid rgb(238,238,238);
+    margin: 0 25px 15px 0px;
+    color:black;
+    padding-left: 20px;
+}
+.form textarea{
+    margin-right: 25px;
+    padding-left: 20px;
+    width: 616px;
+    height: 120px;
+    background: rgb(238,238,238);
+    border:1px solid rgb(238,238,238);
+    resize: none;
+}
+.form a{
+    display: block;
+    width:635px;
+    height:35px;
+    line-height: 35px;
+    border:1px solid rgb(238,238,238);
+    text-align: center;
+    margin: 15px 0 0px 87px;
+    text-decoration: none;
+    background: rgb(238,238,238);
+    color: rgb(58,58,60);
+    font-size: 14px;
+    font-weight: bolder;
 }
